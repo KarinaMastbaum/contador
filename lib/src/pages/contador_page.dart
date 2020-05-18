@@ -30,7 +30,8 @@ final estiloTexto = TextStyle(fontSize: 30, color: Colors.pink[200]);
             AnimatedContainer(
                duration: Duration(minutes: 1),
                width:  260,
-            child: Image.asset('assets/calculadora.png'))
+              child: Image.asset('assets/calculadora.png')
+            )
           ],
         )
       ),
@@ -45,11 +46,11 @@ final estiloTexto = TextStyle(fontSize: 30, color: Colors.pink[200]);
         mainAxisAlignment: MainAxisAlignment.end,
         children: <Widget>[
           SizedBox (width: 30.0,), 
-          FloatingActionButton(child: Icon(Icons.exposure_zero), onPressed: _reset, backgroundColor: Colors.pink, ),
+          FloatingActionButton(child: Icon(Icons.exposure_zero), onPressed: _reset, backgroundColor: Colors.pink[300], ),
           Expanded(child: SizedBox (),), // separacion de botones
-          FloatingActionButton(child: Icon(Icons.remove_circle_outline), onPressed: _sustraer, backgroundColor: Colors.pink, ),
+          FloatingActionButton(child: Icon(Icons.remove_circle_outline), onPressed: _sustraer, backgroundColor: Colors.pink[300], ),
           SizedBox (width: 5.0,),
-          FloatingActionButton(child: Icon(Icons.add_circle_outline), onPressed: _agregar, backgroundColor: Colors.pink, ),
+          FloatingActionButton(child: Icon(Icons.add_circle_outline), onPressed: _agregar, backgroundColor: Colors.pink[300], ),
         ],
       );
        

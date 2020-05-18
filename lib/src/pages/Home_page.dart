@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget{
     return Scaffold(
     //CTRL + Barra espaciadora: para ver todas las propiedades que tiene Scaffold
       appBar: AppBar(
-        title: Text('Oinkiland', style: TextStyle(color: Colors.white)),
+        title: Text('Contador', style: TextStyle(color: Colors.white)),
         centerTitle: true,
         backgroundColor: Colors.pink[300],
       ),
@@ -18,13 +18,13 @@ class HomePage extends StatelessWidget{
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text ('Numero de Oinkis:', style: estiloTexto),
+            Text ('Numero de Taps:', style: estiloTexto),
             Text ('$conteo',  style: estiloTexto),
           ],
         )
       ),
       floatingActionButton: FloatingActionButton(
-       child: Text('🐷', style: TextStyle(fontSize: 30)),   
+       child: Text('+', style: TextStyle(fontSize: 30)),   
        
        onPressed: () {
        
