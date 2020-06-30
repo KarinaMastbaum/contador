@@ -1,3 +1,10 @@
+/__MACOSX/
+/.dart_tool/
+/.idea/
+/build/
+/test/
+
+
 # Miscellaneous
 *.class
 *.log

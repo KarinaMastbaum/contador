@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget{
     return Scaffold(
     //CTRL + Barra espaciadora: para ver todas las propiedades que tiene Scaffold
       appBar: AppBar(
-        title: Text('Contador', style: TextStyle(color: Colors.white)),
+        title: Text('Contador', style: TextStyle(fontSize: 30, color: Colors.white)),
         centerTitle: true,
         backgroundColor: Colors.pink[300],
       ),
