@@ -1,6 +1,6 @@
 # Componentes
 
-_Este es el primer proyecto que hice junto al curso de Flutter: Tu guia completa de desarrollo para iOS y Android, dictado por Fernando Herrera en Udemy.
+_Este es el primer proyecto que hice junto al curso de Flutter: Tu guia completa de desarrollo para iOS y Android, dictado por Fernando Herrera en Udemy._
 
 _Contador_  
 ![](preview1.gif)
